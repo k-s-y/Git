@@ -22,6 +22,7 @@ public class UserController {
     @RequestMapping(value = "/quick", method = RequestMethod.GET, params = {"username"})
     public String save() {
         System.out.println("Controller save running..");
+        System.out.println("dev01");
         return "success";
 //        return "redirect:success";
     }
