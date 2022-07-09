@@ -23,6 +23,7 @@ public class UserController {
     public String save() {
         System.out.println("Controller save running..");
         System.out.println("dev01");
+        System.out.println("master");
         return "success";
 //        return "redirect:success";
     }
